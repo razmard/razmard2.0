@@ -7,6 +7,7 @@ const IndexPage = () => {
       
       
       <Layout>
+        <SEO title="Home" image="/images/Dreamer-#4113.png" />
       <SEO/> 
       <Hero/>
       </Layout>
