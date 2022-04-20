@@ -23,7 +23,7 @@ const theme = createTheme({
   },
   typography: {
     fontSize: 14,
-    fontFamily: "Roboto Mono",
+    fontFamily: "Poppins",
     fontWeightLight: 300,
     fontWeightRegular: 500,
     h1: {

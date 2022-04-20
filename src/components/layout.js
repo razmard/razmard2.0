@@ -3,7 +3,7 @@ import Navbar from "../components/navbar";
 import Footer from "./footer";
 import { Container,CssBaseline } from '@mui/material';
 
-const Layout = ({ pageTitle, children }) => {
+const Layout = ({ children }) => {
   return (
     <div>
     <Navbar />
@@ -12,7 +12,6 @@ const Layout = ({ pageTitle, children }) => {
     
 
       
-          <title>{pageTitle}</title>
 
           <main>
             {children}

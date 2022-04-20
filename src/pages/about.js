@@ -28,20 +28,20 @@ const AboutPage = () => {
             <Typography color="primary" variant="h3">
               Who?
             </Typography>
-            <Typography variant="body1" sx={{ mb: 2 }}>
+            <Typography variant="body1" align="justify" sx={{ mb: 2 }}>
               Self Taught Music Producer / Visual Artist
             </Typography>
             <Typography color="primary" variant="h3">
               What?
             </Typography>
-            <Typography variant="body1" sx={{ mb: 2 }}>
+            <Typography variant="body1" align="justify" sx={{ mb: 2 }}>
               I make surreal art and folk-fusion music inspired by eastern
               wisdom schools from Sufism all the way to Zen Buddhism.
             </Typography>
             <Typography color="primary" variant="h3">
               Why?
             </Typography>
-            <Typography variant="body1" sx={{ mb: 2 }}>
+            <Typography variant="body1" align="justify" sx={{ mb: 2 }}>
               I create to express my inner worlds, inspire others to look deeper
               inside and celebrate being alive and ultimately to feel human
             </Typography>
@@ -49,21 +49,21 @@ const AboutPage = () => {
           <Grid>
           <Typography variant="h4" color="primary" sx={{mt:3}}>
           Origins</Typography>
-          <Typography variant="body1">
+          <Typography variant="body1" align="justify">
 
 Born to a middle class family living in Tehran, I spent my childhood in the different fantasy worlds of animated TV series and Japanese anime. I was drawn to drawing from a young age and was scribbling on any piece of paper I saw which sometimes turned out to be my sister's high school diploma. I continued drawing during my teenage years by taking some extra curricular courses and discovered pen and ink style which fascinated me even more.
 
 I started music after I graduated high school, I got an electric guitar and started teaching myself by watching tutorials. I started experimenting with FL studio when I was 19 and it soon became one of my favorite pastimes.
 </Typography>
 <Typography variant="h4" color="primary" sx={{mt:3}}>Going the Corporate Way</Typography>
-<Typography variant="body1">
+<Typography variant="body1" align="justify">
 I stopped all my artistic endeavors after my second year studying software engineering to make time for a part time job in the IT Industry. I soon discovered the value of knowledge in the IT field and could see that I could do without a university degree for a while, I got my associates degree instead of a bachelor's and quit university to work full time as an system admin. I got some Cisco and Microsoft IT professional certificates while working as a full time IT Manager. I then went back to school again to finish my degree this time I majoring in Computer Network Engineering.
 
 I got severely depressed by the corporate environment after working in the field for around 4 years and quit my job as an IT Manager in an ICT firm back in mid 2018 to find my way in life and finish university all together.
 </Typography>
 <Typography variant="h4" color="primary" sx={{mt:3}}>
 Finding The Way, DIY Attitude</Typography>
-<Typography variant="body1">
+<Typography variant="body1" align="justify">
 Now that I had some money saved up, I could finish my degree while figuring out how to make a living.In the next three years I started self educating and doing some freelance jobs to stay afloat, I quit at 25 and gave myself 5 years to experiment to find my IKIGAI a Japanese concept I had become familiar with back then.the things I did along the way taught me important things that would help me in the future. I started doing different things including
 
     Tattoo Art: my first intuition was to make money out of drawing and teaching myself to become a tattoo artist,was a safe bet cause tattoos were becoming more and more popular in where I lived. I invested a lot of time into learning drawing, which would really help me out in the future. Also the tattoos I gave myself are pretty sweet.
@@ -81,10 +81,10 @@ The things I did were fun for a while and taught me a lot but they were not my I
     <Typography variant="subtitle1" align="center">a sign I saw at a jazz cafe</Typography>
 </Box>
 <Typography variant="h4" color="primary" sx={{mt:3}}>The Moment of Transformation</Typography>
-<Typography variant="body1">
+<Typography variant="body1" align="justify">
 I went to a concert in a small cafe in Tehran back in 2019, the summer before Covid hit Iran, there I had kind of a transformational experience while listening to a great performance by a jazz band and an Iranian Dotar player. There was a huge shift in my consciousness, in a moment of pure bliss I felt first hand the transformational power of art in a live setting (artistic performance is really limited where I lived and never had I noticed such power stemming from one instrument) I decided to pursue art not concerning myself with the financial aspects, and the neon sign in the cafe certainly helped. It read make smart choices in your life, but only the "make art your life" part was on.</Typography>
 <Typography variant="h4" color="primary" sx={{mt:3}}>At (In) The Moment</Typography>
-<Typography variant="body1">
+<Typography variant="body1" align="justify">
 After that experience I started pursuing art full time, mostly focusing on my music, continuing to learn guitar and started doing piano and Tanbour (an ancient Persian instrument). I started drawing more serious pieces as an act of becoming disciplined. you can read what I do on the blog
 </Typography>
 </Grid>
