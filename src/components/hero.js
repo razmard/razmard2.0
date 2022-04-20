@@ -13,8 +13,6 @@ import {
 } from "@mui/material";
 import { Box } from "@mui/system";
 import { Link } from "gatsby";
-import razmardgreen from "../images/razmardgreen.svg";
-import dreamer from "../images/Dreamer-#4113.png";
 import LibraryMusicIcon from "@mui/icons-material/LibraryMusic";
 import CollectionsIcon from "@mui/icons-material/Collections";
 
@@ -35,7 +33,7 @@ const Hero = () => {
               sx={{ display: "block", justifyContent: "center", my: 2 }}
             >
               <Box sx={{ display: "flex", justifyContent: "center", my: 2 }}>
-                <img src={razmardgreen} alt="razmard" width="444" />
+                <Typography color="primary" variant="h1">Hi, I am RAZMARD</Typography>
               </Box>
               <Typography
                 variant="body1"
@@ -68,24 +66,26 @@ const Hero = () => {
                 check out what I do:
               </Typography>
               <Grid container sx={{ justifyContent: "center" }}>
-                <Grid item xs={3} sx={{ p: 2, nb: 6 }}>
+                <Grid item xs={4} md={3} sx={{ m: 2, justifyContent: "center" }}>
                   <Button
                     component={Link}
                     to="/music"
                     variant="outlined"
                     size="large"
                     endIcon={<LibraryMusicIcon />}
+                    sx={{margin: "auto"}}
                   >
                     Music
                   </Button>
                 </Grid>
-                <Grid item xs={3} sx={{ p: 2 }}>
+                <Grid item xs={4} md={3} sx={{ m: 2, justifyContent: "center"  }}>
                   <Button
                     component={Link}
                     to="/portfolio"
                     variant="outlined"
                     size="large"
-                    endIcon={<CollectionsIcon />}
+                    endIcon={<CollectionsIcon />} 
+                    sx={{margin: "auto"}}
                   >
                     Art
                   </Button>

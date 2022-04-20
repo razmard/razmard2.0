@@ -18,19 +18,26 @@ class Painting extends Component {
     const { previous, next } = this.props.pageContext; */
     const options = {
       renderMark: {
-        [MARKS]: (text) => <Typography variant="text">{text}</Typography>,
+        [MARKS]: (text) => <Typography variant="body">{text}</Typography>,
+        [MARKS.BOLD]: (text) => <Typography variant="bold">{text}</Typography>,
       },
       renderNode: {
         [INLINES.HYPERLINK]: (node, children) => {
           const { uri } = node.data;
           return (
-            <a href={uri} className="underline">
+            <a href={uri}>
               {children}
             </a>
           );
         },
         [BLOCKS.HEADING_2]: (node, children) => {
           return <Typography variant="h2" sx={{color:"primary.main"}}>{children}</Typography>;
+        },
+          [BLOCKS.HEADING_3]: (node, children) => {
+            return <Typography variant="h3" sx={{color:"primary.main"}}>{children}</Typography>;
+          },
+            [BLOCKS.HEADING_4]: (node, children) => {
+              return <Typography variant="h4" sx={{color:"primary.main"}}>{children}</Typography>;
         },
       },
     };
@@ -93,7 +100,7 @@ class Painting extends Component {
   }
 }
 
-export default Painting;
+export default Painting
 
 export const pageQuery = graphql`
   query motionportfolio($slug: String!) {

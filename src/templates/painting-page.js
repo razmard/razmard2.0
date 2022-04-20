@@ -85,7 +85,7 @@ class Painting extends Component {
   }
 }
 
-export default Painting;
+export default Painting
 
 export const pageQuery = graphql`
   query portfolio($slug: String!) {
