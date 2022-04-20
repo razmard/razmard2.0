@@ -42,7 +42,7 @@ module.exports = {
                 variants: [`500`, `700`, `900`],
               },
               {
-                family: `Roboto Mono`,
+                family: `Poppins`,
                 variants: [`400`,],
               },
             ],
