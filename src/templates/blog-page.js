@@ -66,7 +66,7 @@ class BlogPage extends Component {
             <GatsbyImage image={getImage(page.thumbnail)}/>
             </CardMedia>
             </Grid>
-            <Grid xs={8}>
+            <Grid xs={7}>
               <Typography variant="h1">{page.title}</Typography>
               <Typography variant="subtitle">{page.date}</Typography>
               </Grid>
