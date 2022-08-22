@@ -1,12 +1,14 @@
 import * as React from "react";
 import { useStaticQuery, graphql } from "gatsby"; 
-import {Grid, Tooltip} from "@mui/material";
+import {Grid, Tooltip, Button, Link} from "@mui/material";
 
 //importing social media icons
-import Twitter from "../images/twitter.svg";
-import Youtube from "../images/youtube.svg";
-import Soundcloud from "../images/soundcloud.svg";
-import Instagram from "../images/instagram.svg";
+
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import LibraryMusicIcon from '@mui/icons-material/LibraryMusic';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+
 
 const Socials = ({ twitter, instagram, soundcloud, spotify, youtube }) => {
     const data = useStaticQuery(graphql`
@@ -25,16 +27,79 @@ const Socials = ({ twitter, instagram, soundcloud, spotify, youtube }) => {
   `);
 
   return (
-    <Grid container sx={{justifyContent: "center", mt:3}}>
-      <Grid item xs={2}>
-        <Tooltip title="Twitter">
-        <a href={data.site.siteMetadata.socials.twitter}>
-          <img src={Twitter} width="64" alt="Twitter"/>
-          
-        </a>
-        </Tooltip>
+
+   
+              
+
+
+
+
+    <Grid container sx={{justifyContent: "center"}}>
+      <Grid item xs={6} md={6}  sx={{ p: 1, justifyContent: "center" , m: "auto"  }}>
+      <Tooltip title="Twitter">
+      <Button
+                    component={Link}
+                    to={data.site.siteMetadata.socials.twitter}
+                    variant="outlined"
+                    size="large"
+                    endIcon={<TwitterIcon/>}
+                    sx={{margin: "auto"}}
+                  >
+                   Twitter
+                  </Button>
+                  </Tooltip>
+        
+       
       </Grid>
-      <Grid xs={2}>
+      <Grid item xs={6} md={6}  sx={{ p: 1, justifyContent: "center" , m: "auto"  }}>
+      <Tooltip title="Youtube">
+      <Button
+                    component={Link}
+                    to={data.site.siteMetadata.socials.youtube}
+                    variant="outlined"
+                    size="large"
+                    endIcon={<YouTubeIcon/>}
+                    sx={{justifyContent: "center" }}
+                  >
+                   Youtube
+                  </Button>
+                  </Tooltip>
+        
+       
+      </Grid>
+      <Grid item xs={6} md={6} sx={{p: 1, justifyContent: "center" , m: "auto"  }}>
+      <Tooltip title="Instagram">
+      <Button
+                    component={Link}
+                    to={data.site.siteMetadata.socials.instagram}
+                    variant="outlined"
+                    size="large"
+                    endIcon={<InstagramIcon/>}
+                    sx={{margin: "auto"}}
+                  >
+                   Instagram
+                  </Button>
+                  </Tooltip>
+        
+       
+      </Grid>
+      <Grid item xs={6} md={6} sx={{ p: 1, justifyContent: "center" , m: "auto"  }}>
+      <Tooltip title="Soundcloud">
+      <Button
+                    component={Link}
+                    to={data.site.siteMetadata.socials.instagram}
+                    variant="outlined"
+                    size="large"
+                    endIcon={<LibraryMusicIcon/>}
+                    sx={{margin: "auto"}}
+                  >
+                   Soundcloud
+                  </Button>
+                  </Tooltip>
+        
+       
+      </Grid>
+      {/* <Grid xs={2}>
       <Tooltip title="YouTube">
         <a href={data.site.siteMetadata.socials.youtube}>
           <img src={Youtube} width="64" alt="YouTube"/>
@@ -54,7 +119,7 @@ const Socials = ({ twitter, instagram, soundcloud, spotify, youtube }) => {
           <img src={Instagram} width="64" alt="Instagram"/>
         </a>
         </Tooltip>
-      </Grid>
+      </Grid> */}
     </Grid>
   );
 };
