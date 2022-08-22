@@ -53,6 +53,7 @@ class Painting extends Component {
                 <Card elevation={6} sx={{borderRadius: 1}}>
                 <CardMedia>
                 <iframe
+                  title={page.title}
                   width="720"
                   height="1080"
                   frameBorder="0"

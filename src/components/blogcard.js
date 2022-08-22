@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
-import {Card, CardMedia, Grid, CardActionArea, Typography, Box, Chip} from "@mui/material"
+import {Card, CardMedia, Grid, CardActionArea, Typography} from "@mui/material"
 
 const BlogCard = (props) => {
     return (
