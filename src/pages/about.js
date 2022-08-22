@@ -3,13 +3,12 @@ import Layout from "../components/layout";
 import razmardgreen from "../images/razmardgreen.svg";
 import { Box, Grid, Typography } from "@mui/material";
 import { StaticImage } from "gatsby-plugin-image";
-import SEO from "../components/seo";
-import jazzcafe from "../images/jazzcafe.jpg";
+import Seo from "../components/seo";
 
 const AboutPage = () => {
   return (
     <Layout pageTitle="About Razmard">
-      <SEO
+      <Seo
         title="About"
         description="Producing High Vibration Music"
         image="/images/Dreamer-#4113.png"
@@ -68,7 +67,7 @@ Now that I had some money saved up, I could finish my degree while figuring out 
 
     Tattoo Art: my first intuition was to make money out of drawing and teaching myself to become a tattoo artist,was a safe bet cause tattoos were becoming more and more popular in where I lived. I invested a lot of time into learning drawing, which would really help me out in the future. Also the tattoos I gave myself are pretty sweet.
 
-    Writing: my good grasp of English landed me a job as a part time writer for some technical websites. that made me read up on story telling, SEO and how to write in general.
+    Writing: my good grasp of English landed me a job as a part time writer for some technical websites. that made me read up on story telling, Seo and how to write in general.
 
     Animating: I dabbled with content creation, trying to make an educational animated internet video series about Persian mythology. this was a dream of mine since I was a kid and obsessed with anime. Producing the series alone made me learn how to animate with after effects and I learned about basics of character design and drawing in Illustrator, how to speak properly for a video and project management. Since it was too much work I was burnt out rather quick.
 

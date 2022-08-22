@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 import { renderRichText } from "gatsby-source-contentful/rich-text";
 import { INLINES, BLOCKS, MARKS } from "@contentful/rich-text-types";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 
 class BlogPage extends Component {
   render() {
@@ -59,7 +59,7 @@ class BlogPage extends Component {
 
     return (
         <Layout pageTitle={page.title}>
-          <SEO title={page.title} description={page.subtitle}  image={getImage(page.thumbnail)}/>
+          <Seo title={page.title} description={page.subtitle}  image={getImage(page.thumbnail)}/>
           <Card container elevation={6} sx={{ p: 1, my:3, mb:6, mx:2, borderRadius: 3}}>
             <Grid xs={4}>
               <CardMedia>

@@ -2,7 +2,7 @@ import * as React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import BlogCard from "../components/blogcard";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 import { Grid } from "@mui/material";
 
 const BlogMain = ({data}) => {
@@ -12,7 +12,7 @@ const BlogMain = ({data}) => {
       
       
       <Layout>
-        <SEO title="Blog" image="/images/Dreamer-#4113.png" />
+        <Seo title="Blog" image="/images/Dreamer-#4113.png" />
         <Grid spacing={1} container gridTemplateColumns="repeat(1, 1fr)" sx={{justifyContent: "center",}}>
 
         {blogposts.map( blogpost => <BlogCard title={blogpost.node.title} description={blogpost.node.subtitle} image={blogpost.node.thumbnail} slug={blogpost.node.slug}/> )}

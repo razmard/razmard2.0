@@ -2,13 +2,13 @@ import React from "react";
 import Layout from "../components/layout";
 import { Card, CardMedia, Grid, Typography, Box, Button, Chip} from "@mui/material";
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 
 
 const Music = () => {
   return (
     <Layout>
-      <SEO title="Music" description="Producing High Vibration Music" image="/images/Dreamer-#4113.png" />
+      <Seo title="Music" description="Producing High Vibration Music" image="/images/Dreamer-#4113.png" />
         <Grid container>
         <Grid  item xs={12} md= {6}   sx={{justifyContent: "center", m: "auto",p:2}}>
             <Typography variant="h2" sx={{color: "primary.main", textAlign: "center", pb:3 }}>Producing High Vibration Music</Typography>
@@ -24,6 +24,7 @@ const Music = () => {
         <Card sx={{borderRadius: 4, p:0, m:0}}>
             <CardMedia>
       <iframe
+      title="soundcloud"
         width="100%"
         height="777"
         scrolling="no"
