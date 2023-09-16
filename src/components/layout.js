@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
     <div>
     <Navbar />
     <CssBaseline>
-    <Container maxWidth={false} sx={{my:2}}>
+    <Container sx={{my:2}}>
     
 
       
