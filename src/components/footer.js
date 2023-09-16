@@ -7,7 +7,7 @@ const Footer = () => {
     <Container>
         <Grid container sx={{ py:3,  justifyContent: "center"}}>
             
-           <Typography align="center" variant="body1" sx={{color: "white.main"}}>© 2022 by Razmard. All rights reseverd.</Typography>
+           <Typography align="center" variant="body1" sx={{color: "white.main"}}>© 2022 by <a href="https://twitter.com/razmrd" alt="Ramard">Razmard</a>. All rights reseverd.</Typography>
             
             
         </Grid>

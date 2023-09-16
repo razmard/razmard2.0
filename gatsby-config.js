@@ -7,7 +7,7 @@ module.exports = {
     keywords: 'Indie Music, NFT Artist, Music NFT, NFT Musician, NFT Music Collection, Music NFT Collection',
     author: '@razmard7',
     socials: {
-      twitter: `https://twitter.com/razmard7`,
+      twitter: `https://twitter.com/razmrd`,
       youtube: `https://www.youtube.com/channel/UCnYNQdb-kZ86z9Fhn-4mWKg`,
       soundcloud: `https://soundcloud.com/razmard`,
       instagram: `https://instagram.com/razmard`,

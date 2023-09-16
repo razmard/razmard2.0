@@ -15,7 +15,7 @@ const NftLinks = () => {
 <Tooltip title="Animated Audiovisual 1/1s">
 <Button
               component={Link}
-              to="https://foundation.app/@razmard"
+              href="https://foundation.app/@razmard"
               variant="outlined"
               size="large"
               endIcon={<CategoryIcon/>}
@@ -31,7 +31,7 @@ const NftLinks = () => {
 <Tooltip title="Music Nfts and Stills">
 <Button
               component={Link}
-              to="https://objkt.com/profile/tz1hQCLusVds3SvDqYJM6W2hRuxSFnS7ojrE/created"
+              href="https://objkt.com/profile/tz1hQCLusVds3SvDqYJM6W2hRuxSFnS7ojrE/created"
               variant="outlined"
               size="large"
               endIcon={<AlbumIcon/>}

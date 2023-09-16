@@ -39,7 +39,7 @@ const Socials = ({ twitter, instagram, soundcloud, spotify, youtube }) => {
       <Tooltip title="Twitter">
       <Button
                     component={Link}
-                    to={data.site.siteMetadata.socials.twitter}
+                    href={data.site.siteMetadata.socials.twitter}
                     variant="outlined"
                     size="large"
                     endIcon={<TwitterIcon/>}
@@ -55,7 +55,7 @@ const Socials = ({ twitter, instagram, soundcloud, spotify, youtube }) => {
       <Tooltip title="Youtube">
       <Button
                     component={Link}
-                    to={data.site.siteMetadata.socials.youtube}
+                    href={data.site.siteMetadata.socials.youtube}
                     variant="outlined"
                     size="large"
                     endIcon={<YouTubeIcon/>}
@@ -71,7 +71,7 @@ const Socials = ({ twitter, instagram, soundcloud, spotify, youtube }) => {
       <Tooltip title="Instagram">
       <Button
                     component={Link}
-                    to={data.site.siteMetadata.socials.instagram}
+                    href={data.site.siteMetadata.socials.instagram}
                     variant="outlined"
                     size="large"
                     endIcon={<InstagramIcon/>}
@@ -87,7 +87,7 @@ const Socials = ({ twitter, instagram, soundcloud, spotify, youtube }) => {
       <Tooltip title="Soundcloud">
       <Button
                     component={Link}
-                    to={data.site.siteMetadata.socials.instagram}
+                    href={data.site.siteMetadata.socials.soundcloud}
                     variant="outlined"
                     size="large"
                     endIcon={<LibraryMusicIcon/>}
@@ -99,27 +99,7 @@ const Socials = ({ twitter, instagram, soundcloud, spotify, youtube }) => {
         
        
       </Grid>
-      {/* <Grid xs={2}>
-      <Tooltip title="YouTube">
-        <a href={data.site.siteMetadata.socials.youtube}>
-          <img src={Youtube} width="64" alt="YouTube"/>
-        </a>
-        </Tooltip>
-      </Grid>
-      <Grid xs={2}>
-      <Tooltip title="SoundCloud">
-        <a href={data.site.siteMetadata.socials.soundcloud}>
-          <img src={Soundcloud} width="64" alt="Soundcloud"/>
-        </a>
-        </Tooltip>
-      </Grid>
-      <Grid xs={2}>
-      <Tooltip title="Instagram">
-        <a href={data.site.siteMetadata.socials.instagram}>
-          <img src={Instagram} width="64" alt="Instagram"/>
-        </a>
-        </Tooltip>
-      </Grid> */}
+
     </Grid>
   );
 };
