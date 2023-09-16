@@ -50,21 +50,18 @@ class Painting extends Component {
           <Grid container>
             <Grid item xs={12} sx={{ p: 2 }}>
               <Grid container sx={{ justifyContent: "center",p:3 }}>
-                <Card elevation={6}  sx={{overflow: "hidden",pb: "56.25%", position: "relative",  borderRadius: "1"}} >
+                <Card elevation={6} sx={{borderRadius: 1}}>
                 <CardMedia>
                 <iframe
                   title={page.title}
-                  style={{left: "0",
-                    top: "0",
-                    height: "100 %",
-                    width: "100 %",
-                  }}
+                  width="720"
+                  height="1080"
                   frameBorder="0"
                   src={"https://www.youtube.com/embed/"+page.videoId+"?vq=hd1080p&autoplay=1&loop=1&modestbranding=1&playlist="+page.videoId}
                   allowFullScreen
                 ></iframe>
-                </CardMedia>
                 
+                </CardMedia>
                 </Card>
               </Grid>
             </Grid>
