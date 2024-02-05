@@ -33,13 +33,13 @@ const Hero = () => {
               sx={{ display: "block", justifyContent: "left", my: 2 }}
             >
               <Box sx={{ display: "flex", justifyContent: "left", my: 2 }}>
-                <Typography color="primary" variant="h1">Hi, I am Razmard</Typography>
+                <Typography color="primary" variant="h1">Hi, I am Razmard👁</Typography>
               </Box>
               <Typography
                 variant="body1"
                 sx={{ textAlign: "left", fontWeight: "600" }}
               >
-                NFT 2D Motion Artist / Musician
+                Animator / Music Prdocucer / NFT Artist
               </Typography>
             </Grid>
             <Grid
@@ -88,21 +88,21 @@ const Hero = () => {
             >
               <CardMedia>
                 <iframe
-                  title="where I belong NFT"
+                  title="Entity 003"
                   width="444"
-                  height="666"
+                  height="444"
                   frameBorder="0"
-                  src="https://www.youtube.com/embed/bEDzquElQQc?vq=hd1080p&autoplay=1&controls=0&loop=1&modestbranding=1&playlist=bEDzquElQQc"
+                  src="https://www.youtube.com/embed/ysVqmpcgW74?vq=hd1080p&autoplay=1&controls=0&loop=1&modestbranding=1&playlist=bEDzquElQQc"
                   allowFullScreen
                 ></iframe>
               </CardMedia>
               
               <CardContent container sx={{ justifyContent: "left" }}>
                 <Typography variant="h3" sx={{ color: "primary.main" }}>
-                  Where I Belong
+                  Entity 003
                 </Typography>
                 <Typography variant="body1" sx={{ textAlign: "left" }}>
-                  honoring the divine realms of humanity
+                  part of the SHAPESHIFT Collection
                 </Typography>
               </CardContent>
               <CardActions sx={{}}>
@@ -115,11 +115,11 @@ const Hero = () => {
                   Details
                 </Button>
                 <Button
-                  href="https://foundation.app/@razmard/immx2/1"
+                  href="https://foundation.app/collection/shpshft/3"
                   size="small"
                   sx={{ alignContent:"right",mx: 2 }}
                 >
-                  Buy on Foundation
+                  Collect on Foundation
                 </Button>
               </CardActions>
             </Card>
