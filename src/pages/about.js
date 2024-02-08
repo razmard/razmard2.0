@@ -50,7 +50,7 @@ const AboutPage = () => {
           Origins</Typography>
           <Typography variant="body1" align="justify">
 
-Born to a middle class family living in Tehran, I spent my childhood in the different fantasy worlds of animated TV series and Japanese anime. I was drawn to drawing from a young age and was scribbling on any piece of paper I saw which sometimes turned out to be my sister's high school diploma. I continued drawing during my teenage years by taking some extra curricular courses and discovered pen and ink style which fascinated me even more.
+Born to a working class family living in Tehran, I spent my childhood in the different fantasy worlds of animated TV series and Japanese anime. I was drawn to drawing from a young age and was scribbling on any piece of paper I saw which sometimes turned out to be my sister's high school diploma. I continued drawing during my teenage years by taking some extra curricular courses and discovered pen and ink style which fascinated me even more.
 
 I started music after I graduated high school, I got an electric guitar and started teaching myself by watching tutorials. I started experimenting with FL studio when I was 19 and it soon became one of my favorite pastimes.
 </Typography>
@@ -84,7 +84,7 @@ The things I did were fun for a while and taught me a lot but they were not my I
 I went to a concert in a small cafe in Tehran back in 2019, the summer before Covid hit Iran, there I had kind of a transformational experience while listening to a great performance by a jazz band and an Iranian Dotar player. There was a huge shift in my consciousness, in a moment of pure bliss I felt first hand the transformational power of art in a live setting (artistic performance is really limited where I lived and never had I noticed such power stemming from one instrument) I decided to pursue art not concerning myself with the financial aspects, and the neon sign in the cafe certainly helped. It read make smart choices in your life, but only the "make art your life" part was on.</Typography>
 <Typography variant="h4" color="primary" sx={{mt:3}}>At (In) The Moment</Typography>
 <Typography variant="body1" align="justify">
-After that experience I started pursuing art full time, mostly focusing on my music, continuing to learn guitar and started doing piano and Tanbour (an ancient Persian instrument). I started drawing more serious pieces as an act of becoming disciplined. you can read what I do on the blog
+After that experience I started pursuing art full time, mostly focusing on my music, I have been creating a a lot of music and collaborating with different artists on the Web3 space. I am continuing to produce audiovisual/ works and music as NFTs on the etherum and tezos blockchains.
 </Typography>
 </Grid>
 </Grid>
